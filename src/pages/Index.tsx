@@ -152,13 +152,14 @@ const Index = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="section-padding bg-innocom-900 text-white">
+      {/* <section className="section-padding bg-innocom-900 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Our Impact"
             subtitle="We've helped numerous businesses transform their operations and achieve their goals."
             centered={true}
             className="text-white"
+            color="text-white"
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -168,10 +169,10 @@ const Index = () => {
             <StatCard value={30} text="Expert Team Members" />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
-      <section className="section-padding bg-white">
+      {/* <section className="section-padding bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="What Our Clients Say"
@@ -200,13 +201,13 @@ const Index = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-16 bg-gradient-to-r from-innocom-800 to-innocom-900 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Innovate Your Business?</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white">Ready to Innovate Your Business?</h2>
             <p className="text-xl text-gray-300 mb-8">
               Contact us today for a free consultation and let's discuss how we can help you achieve your business goals.
             </p>

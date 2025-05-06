@@ -6,6 +6,7 @@ interface SectionHeadingProps {
   subtitle?: string;
   centered?: boolean;
   className?: string;
+  color?: string;
 }
 
 const SectionHeading = ({
@@ -13,6 +14,7 @@ const SectionHeading = ({
   subtitle,
   centered = false,
   className = "",
+  color = "",
 }: SectionHeadingProps) => {
   return (
     <div
@@ -20,11 +22,11 @@ const SectionHeading = ({
         centered ? "text-center" : ""
       } ${className}`}
     >
-      <h2 className="text-3xl sm:text-4xl font-bold mb-4 heading-underline inline-block">
+      <h2 className={`text-3xl sm:text-4xl font-bold mb-4 heading-underline inline-block ${color}`}>
         {title}
       </h2>
       {subtitle && (
-        <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
+        <p className={`text-gray-600 mt-4 max-w-3xl mx-auto ${color}`}>
           {subtitle}
         </p>
       )}
